@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Monteserrat-Regular';
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Italico';
+    src: url(Assets/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*HEADER*/
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    font: 600 1.2rem 'Monteserrat-Regular', sans-serif;
+}
+
+/* DIVIDER */
+.divider {
+    height: 1px;
+    background-color: black;
+}
