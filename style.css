@@ -23,6 +23,7 @@ a {
 img {
     width: 100%;
     height: auto;
+    border-radius: .625rem;
 }
 
 /*HEADER*/
@@ -35,10 +36,203 @@ img {
 
 .item {
     font: 600 1.2rem 'Monteserrat-Regular', sans-serif;
+    color: #678471;
+}
+
+.item:hover {
+    color: #FFA36A;
+    transition: 0.5s;
 }
 
 /* DIVIDER */
-.divider {
+.divisao {
     height: 1px;
-    background-color: black;
+    background-color: #47564C;
+    margin: 1.25rem 0;
+}
+
+
+
+/* MAIN */
+
+
+
+#sobre .section {
+    margin-bottom: 5rem;
+}
+
+.container {
+    display: flex;
+}
+
+
+/* NOSSA COMIDA */
+
+.titulo {
+    font: 600 1.5rem 'Monteserrat-Regular', sans-serif;
+    color: #47564C;
+    margin: 1.25rem 0;
+}
+
+.texto {
+    font: 400 1rem 'Monteserrat-Regular', sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.sobreNos {
+    width: 32.5rem;
+    height: auto;
+    position: relative;
+    
+}
+
+.sobreNos::before {
+    content: '';
+    width: 31.875rem;
+    height: 22.25rem;
+    background-color: #000000;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    z-index: 0;
+}
+#sobre {
+    margin: 0 2rem;
+}
+
+#sobre .textos {
+    margin: 3rem 0 0 2.5rem 
+}
+
+/* NOSSA EQUIPE */
+
+.equipe {
+    width: 32.5rem;
+    height: auto;
+    position: relative;
+    
+}
+
+#equipe .textos  {
+    margin: 0  2.5rem 0 1rem 
+}
+
+#equipe {
+    margin: 0 2rem;
+}
+
+#equipe .section {
+    margin-bottom: 5rem;
+}
+
+/* PRATOS */
+#cardapio {
+    margin: 0 2rem;
+}
+
+.pratos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 5rem;
+}
+
+.prato {
+    border: .125rem solid black;
+    margin: 1rem 2rem;
+    width: 16rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.comida {
+    width: 11.9375rem;
+}
+
+.comida:hover {
+    width: 13rem;
+}
+
+.preco {
+    font: 800 1rem 'Monteserrat-Regular', sans-serif;
+    
+}
+
+.lorem {
+    font: 800 1rem 'Monteserrat-Regular', sans-serif;
+}
+#cardapio  {
+    margin-bottom: 4.5rem;
+}
+#cardapio .textos {
+    margin: 0  2.5rem 0 1rem 
+}
+
+/* RODAPE */
+#contato {
+    background-color: #678471;
+    padding: 2rem;
+}
+
+#contato .container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rede {
+    width: 2.1875rem;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.insta, .face, .tel {
+    display: flex;
+    align-items: center;
+}
+
+.rede-insta, .rede-face, .rede-tel {
+    font: 400 0.8rem 'Monteserrat-Regular', sans-serif;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+
+.endereco {
+    width: 13rem;
+    margin-right: 5rem;
+}
+
+.endereco-titulo {
+    font: 600 1rem 'Monteserrat-Regular', sans-serif;
+    color: #fff;
+    text-align: start;
+}
+
+.endereco-descricao {
+    font: 400 0.8rem 'Monteserrat-Regular', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.nome {
+    width: 25rem;
+    margin-top: .9375rem;
+}
+
+.nome .amm {
+    font: 600 1.5rem 'Monteserrat-Regular', sans-serif;
+    color: #fff;
+}
+
+.nome .cs {
+    font: 600 1rem 'Monteserrat-Regular', sans-serif;
+    color: #FFA36A;
 }
